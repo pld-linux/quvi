@@ -4,12 +4,12 @@
 #
 Summary:	Command line tool for parsing flash video download links
 Name:		quvi
-Version:	0.2.13
+Version:	0.2.16.2
 Release:	1
 License:	LGPL v2
 Group:		Applications/WWW
 Source0:	http://downloads.sourceforge.net/quvi/%{name}-%{version}.tar.xz
-# Source0-md5:	bdea7c782e20b0c2671ac55f0f03ae35
+# Source0-md5:	45ac7d1314d932970276c9ec46da66e2
 URL:		http://quvi.sourceforge.net/
 BuildRequires:	autoconf >= 2.68
 BuildRequires:	automake >= 1:1.10
