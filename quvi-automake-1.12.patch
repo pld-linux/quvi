@@ -1,0 +1,10 @@
+--- quvi-0.4.2/configure.ac.orig	2012-06-24 17:48:49.715894244 +0200
++++ quvi-0.4.2/configure.ac	2012-06-24 17:49:01.775828908 +0200
+@@ -25,6 +25,7 @@ AM_SILENT_RULES([yes])
+ 
+ # Checks for programs.
+ AC_PROG_CC
++AM_PROG_CC_C_O
+ 
+ # Checks for libraries.
+ PKG_CHECK_MODULES([libquvi], [libquvi >= 0.4.0])
