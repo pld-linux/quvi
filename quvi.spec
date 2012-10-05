@@ -1,4 +1,5 @@
 Summary:	Command line tool for parsing flash video download links
+Summary(pl.UTF-8):	Narzędzie linii poleceń do analizy odnośników do pobierania filmów flashowych
 Name:		quvi
 Version:	0.4.2
 Release:	1
@@ -16,12 +17,17 @@ BuildRequires:	perl-tools-pod
 BuildRequires:	pkgconfig
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
+Requires:	curl-libs >= 7.18.2
 Requires:	libquvi >= 0.4.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 quvi is a command line tool for parsing video download links. It
 supports YouTube and other similar video websites.
+
+%description -l pl.UTF-8
+quvi to narzędzie linii poleceń do analizy odnośników do pobierania
+filmów flashowych. Obsługuje YouTube i inne podobne serwisy WWW.
 
 %prep
 %setup -q
@@ -49,4 +55,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/quvi
-%{_mandir}/man1/*.1*
+%{_mandir}/man1/quvi.1*
