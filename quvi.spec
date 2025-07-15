@@ -2,7 +2,7 @@ Summary:	Command line tool for parsing flash video download links
 Summary(pl.UTF-8):	Narzędzie linii poleceń do analizy odnośników do pobierania filmów flashowych
 Name:		quvi
 Version:	0.9.5
-Release:	2
+Release:	3
 License:	AGPL v3+
 Group:		Applications/WWW
 Source0:	http://downloads.sourceforge.net/quvi/%{name}-%{version}.tar.xz
